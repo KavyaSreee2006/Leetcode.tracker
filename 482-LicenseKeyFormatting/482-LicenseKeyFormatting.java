@@ -1,4 +1,4 @@
-// Last updated: 11/08/2026, 14:11:49
+// Last updated: 11/08/2026, 14:13:27
 1class Solution {
 2    public String licenseKeyFormatting(String s, int k) {
 3        String str=s.replace("-","").toUpperCase();
