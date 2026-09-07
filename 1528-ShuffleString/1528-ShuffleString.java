@@ -1,0 +1,10 @@
+// Last updated: 07/09/2026, 14:28:02
+class Solution {
+    public String restoreString(String s, int[] indices) {
+        char ch[]=s.toCharArray();
+        for(int i=0;i<s.length();i++){
+            ch[indices[i]]=s.charAt(i);
+        }
+        return new String(ch);
+    }
+}
