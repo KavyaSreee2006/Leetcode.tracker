@@ -1,4 +1,4 @@
-// Last updated: 07/09/2026, 14:14:52
+// Last updated: 07/09/2026, 14:17:48
 1class Solution {
 2    public boolean isMonotonic(int[] nums) {
 3        boolean increasing=true;
